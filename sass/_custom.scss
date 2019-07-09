@@ -1,0 +1,115 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+ font-family:"Raleway", sans-serif;
+ overflow-x:hidden;
+}
+
+#navbarMain{
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ z-index: 2;
+ h3{
+  font-weight: 100;
+ };
+ a.nav-link{
+  @extend h3;
+  font-size: 1.4rem;
+  border-bottom: 1px solid transparent;
+  transition: border .2s;
+ };
+ a.nav-link:hover{
+  border-bottom-color: #fff;
+ };
+};
+
+#header{
+ position: relative;
+ min-height: 750px;
+ background: url(../images/main.jpeg) bottom center / cover no-repeat;
+ .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.2);
+ };
+ #header-content{
+  position: relative;
+  z-index: 1;
+  h1{
+   font-size: 6rem;
+   font-family: "Questrial", sans-serif;
+   line-height: 1;
+  }
+  button{
+   font-size: 1.5rem;
+   border-radius: 2rem;
+  };
+ };
+};
+
+section.container{
+ blockquote{
+  i{
+   font-size: 2.2rem;
+   opacity: .3;
+  };
+ };
+ div#socMed{
+  i{
+   opacity: 1;
+  };
+ };
+};
+
+section#offer{
+ a{
+  text-decoration:none;
+ };
+};
+
+footer#footer{
+ a{
+  font-weight: 100;
+ };
+};
+ 
+@media (max-width: 768px){
+ #navbarMain{
+  background-color: #1f1f1f;
+  a.nav-link{
+   border-bottom: none;
+  };
+ };
+ #header{
+  min-height: 500px;
+  #header-content{
+   width: 80%;
+   h1{
+    font-size: 2.2rem; 
+   };
+   h2{
+    font-size: 1.5rem;
+   };
+  };
+ };
+ section.container{
+  h1{
+   font-size: 1.8rem; 
+  };
+  h2{
+   font-size: 1.6rem;
+  };
+  h3{
+   font-size: 1.2rem;
+  };
+ };
+};

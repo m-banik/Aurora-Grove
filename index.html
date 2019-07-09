@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Aurora Grove</title>
+</head>
+
+<body>
+  <nav id="navbarMain" class="navbar navbar-expand-md navbar-dark">
+    <a href="#" class="navbar-brand">
+      <h3>Aurora Grove</h3>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+      aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarMenu" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#explore" class="nav-link">Explore</a>
+        </li>
+        <li class="nav-item">
+          <a href="#offer" class="nav-link">Offer</a>
+        </li>
+        <li class="nav-item">
+          <a href="#reviews" class="nav-link">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="#newBooking" data-toggle="modal" class="nav-link">Book</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="header" class="d-flex justify-content-center align-items-center">
+    <div class="overlay"></div>
+    <div id="header-content" class="container text-light text-center">
+      <h2 class="text-uppercase">modern camping</h2>
+      <h1 class="text-uppercase">aurora grove</h1>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, soluta!</p>
+      <button class="btn py-2 px-5 btn-lg btn-primary text-uppercase" data-toggle="modal" data-target="#newBooking">book
+        now</button>
+    </div>
+  </header>
+
+  <section id="about" class="container">
+    <h1 class="text-center text-uppercase my-5">you show up, we pitch the tent</h1>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 my-3 my-md-0">
+          <img src="./images/icons/tent.jpg" alt="Tent" class="d-none d-md-block w-100 mb-4">
+          <h2>Amenities You Want</h2>
+          <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis vitae tenetur eos illum
+            assumenda sequi id doloribus unde iure cupiditate!</p>
+        </div>
+        <div class="col-md-4 my-3 my-md-0">
+          <img src="./images/icons/campfire.jpg" alt="Camp fire" class="d-none d-md-block w-100 mb-4">
+          <h2>Activities You Want</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores suscipit nesciunt
+            voluptates officiis perspiciatis quis ducimus assumenda dicta quos dolorum?</p>
+        </div>
+        <div class="col-md-4 my-3 my-md-0">
+          <img src="./images/icons/nature.jpg" alt="Nature" class="d-none d-md-block w-100 mb-4">
+          <h2>Adventures You Want</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia molestiae doloremque
+            suscipit totam beatae consequatur sapiente velit dolore nisi deleniti!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="explore" class="container">
+    <h1 class="text-center text-uppercase my-5">we've created a camping experience that's turn-key and hassle free.</h1>
+    <div class="row mx-3">
+      <div class="col-md-6 my-3">
+        <div class="card text-center">
+          <img src="./images/winter.png" alt="Winter" class="card-img-top">
+          <div class="card-body">
+            <h2 class="text-primary text-uppercase card-title">experience</h2>
+            <p class="lead card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ullam!</p>
+            <button class="btn btn-lg btn-outline-primary">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 my-3">
+        <div class="card text-center">
+          <img src="./images/dogs.png" alt="Dogs" class="card-img-top">
+          <div class="card-body">
+            <h2 class="text-primary text-uppercase card-title">explore</h2>
+            <p class="lead card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quam at porro?
+            </p>
+            <button class="btn btn-lg btn-outline-primary">See More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="offer" class="container mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 my-2">
+          <div id="offerCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/slider/fire.png" alt="Fire" class="img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/slider/caribou.png" alt="Caribou" class="img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/slider/trees.png" alt="Trees" class="img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/slider/coffee.png" alt="Coffee" class="img-fluid">
+              </div>
+              <div class="carousel-control-prev" data-slide="prev" role="button" data-target="#offerCarousel">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </div>
+              <div class="carousel-control-next" data-slide="next" role="button" data-target="#offerCarousel">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 my-2">
+          <h2 class="text-uppercase">camping made cozy</h2>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore deleniti, velit temporibus
+            provident earum
+            animi consectetur quasi obcaecati veniam. Magnam, eveniet! Veniam inventore exercitationem, dolor sequi
+            veritatis expedita ut repellat recusandae!</p>
+          <a href="#" class="lead text-primary">See for yourself<i class="fas fa-arrow-right ml-2"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="container">
+    <h2 class="text-center text-uppercase my-5">what our happy campers are saying</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <blockquote class="blockquote">
+          <i class="fas fa-quote-left text-primary mb-4"></i>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem tenetur eligendi.</p>
+          <footer class="blockquote-footer">Mark Twain</footer>
+        </blockquote>
+      </div>
+      <div class="col-md-4 mb-4">
+        <blockquote class="blockquote">
+          <i class="fas fa-quote-left text-primary mb-4"></i>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, excepturi.</p>
+          <footer class="blockquote-footer">Albert Einstein</footer>
+        </blockquote>
+      </div>
+      <div class="col-md-4 mb-4">
+        <blockquote class="blockquote">
+          <i class="fas fa-quote-left text-primary mb-4"></i>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur excepturi adipisci suscipit repellat
+            non.</p>
+          <footer class="blockquote-footer">Alfred Hitchcock</footer>
+        </blockquote>
+      </div>
+    </div>
+    <div id="socMed" class="container">
+      <h2 class="text-center text-uppercase mt-5">social media - what others are saying</h2>
+      <h3 class="text-primary text-center text-uppercase">#auroragrove</h3>
+      <div class="row">
+        <div class="col-6 col-lg-3 my-3">
+          <img src="./images/gallery/sm1.png" alt="Camper" class="img-fluid">
+        </div>
+        <div class="col-6 col-lg-3 my-3">
+          <img src="./images/gallery/sm2.png" alt="Camper" class="img-fluid">
+        </div>
+        <div class="col-6 col-lg-3 my-3">
+          <img src="./images/gallery/sm3.png" alt="Camper" class="img-fluid">
+        </div>
+        <div class="col-6 col-lg-3 my-3">
+          <img src="./images/gallery/sm4.png" alt="Camper" class="img-fluid">
+        </div>
+        <div class="col-6 col-lg-3 my-3">
+          <img src="./images/gallery/sm5.png" alt="Camper" class="img-fluid">
+        </div>
+        <div class="col-6 col-lg-3 my-3">
+          <img src="./images/gallery/sm6.png" alt="Camper" class="img-fluid">
+        </div>
+        <div class="col-6 col-lg-3 my-3">
+          <img src="./images/gallery/sm7.png" alt="Camper" class="img-fluid">
+        </div>
+        <div class="col-6 col-lg-3 my-3">
+          <img src="./images/gallery/sm8.png" alt="Camper" class="img-fluid">
+        </div>
+      </div>
+      <blockquote class="blockquote text-center mt-4">
+        <i class="fas fa-quote-left text-primary mb-4"></i>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quasi deleniti consectetur iste ea facere
+          ullam
+          architecto soluta cumque blanditiis animi voluptas id magni, commodi quaerat consequuntur, magnam distinctio
+          nulla quos. Libero, voluptatum corporis! Esse molestias ullam rem omnis hic.</p>
+        <footer class="blockquote-footer">Sting</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-dark text-light">
+    <div class="container text-center text-uppercase p-5">
+      <p class="lead">join our newsletter for deals, updates and offers</p>
+      <div class="row justify-content-center">
+        <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+          <form class="form-inline">
+            <div class="input-group">
+              <input type="email" id="emailAddress" class="form-control" placeholder="Your Email">
+              <div class="input-group-append">
+                <input type="submit" value="Join Now" class="btn btn-primary">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="bg-secondary text-uppercase py-3">
+    <ul class="nav flex-column flex-sm-row justify-content-center align-items-center">
+      <li class="nav-item">
+        <a href="#" class="nav-link text-light">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="#about" class="nav-link text-light">About</a>
+      </li>
+      <li class="nav-item">
+        <a href="#explore" class="nav-link text-light">Explore</a>
+      </li>
+      <li class="nav-item">
+        <a href="#offer" class="nav-link text-light">Offer</a>
+      </li>
+      <li class="nav-item">
+        <a href="#reviews" class="nav-link text-light">Reviews</a>
+      </li>
+      <li class="nav-item">
+        <a href="#newBooking" data-toggle="modal" class="nav-link text-light">Book</a>
+      </li>
+    </ul>
+  </footer>
+
+  <div id="newBooking" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="newBookingTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 id="newBookingTitle" class="modal-title">New Booking</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Please fill out the form below and we'll get back to you as soon as possible</p>
+          <form>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" class="form-control" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="adults">
+                Number of Adults
+              </label>
+              <select id="adults" class="form-control">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="children">Number of Children</label>
+              <select id="children" class="form-control">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="requests">Additional Requests</label>
+              <textarea id="requests" class="form-control" rows="3"></textarea>
+              <small class="text-muted">Share with us any wish!</small>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-target="#">Submit Request</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+  <script src="./bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
